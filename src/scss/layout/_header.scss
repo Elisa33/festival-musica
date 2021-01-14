@@ -1,0 +1,40 @@
+.header {
+	background-color: $verde;
+
+	@include telefono {
+		background: $morado;
+	}
+
+	@include tablet {
+		background: $rosa;
+	}
+	@include desktop {
+		background: $amarillo;
+	}
+	.contenido-header {
+		padding: $separacion / 2 0;
+		@include telefono {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+	}
+	h1 {
+		color: $blanco;
+		text-align: center;
+	}
+}
+
+.navegacion-principal {
+	margin-top: 0;
+	display: flex;
+	gap: 2rem;
+	justify-content: center;
+	a {
+		color: $blanco;
+		font-size: 2rem;
+		&:hover {
+			color: $amarillo;
+		}
+	}
+}
