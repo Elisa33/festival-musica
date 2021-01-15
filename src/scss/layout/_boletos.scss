@@ -15,3 +15,42 @@
 		margin-bottom: 2rem;
 	}
 }
+
+.pase {
+	width: 100%;
+	border-spacing: 0;
+	thead {
+		text-transform: uppercase;
+		background: $rosa;
+		color: $blanco;
+		th {
+			padding: $separacion / 4;
+			font-weight: $delgada;
+			font-size: 2rem;
+		}
+	}
+	tbody {
+		background: $blanco;
+		td {
+			padding: $separacion / 4;
+			border-bottom: 1px solid #e1e1e1;
+		}
+		tr {
+			&:last-of-type {
+				td {
+					border-bottom: none;
+				}
+			}
+		}
+	}
+	tfoot {
+		background: $morado;
+		color: $blanco;
+		td {
+			padding: $separacion / 4;
+			font-weight: $delgada;
+			font-size: 2rem;
+			text-align: center;
+		}
+	}
+}

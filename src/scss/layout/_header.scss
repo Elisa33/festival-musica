@@ -23,6 +23,11 @@
 		color: $blanco;
 		text-align: center;
 	}
+	&.fijo {
+		position: fixed;
+		width: 100%;
+		box-shadow: 0 0.3rem 0.4rem #555;
+	}
 }
 
 .navegacion-principal {

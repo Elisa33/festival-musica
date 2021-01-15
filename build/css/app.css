@@ -442,6 +442,12 @@ h3 {
   text-align: center;
 }
 
+.header.fijo {
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 0.3rem 0.4rem #555;
+}
+
 .navegacion-principal {
   margin-top: 0;
   display: flex;
@@ -704,4 +710,57 @@ h3 {
   font-size: 3rem;
   text-align: center;
   margin-bottom: 2rem;
+}
+
+.pase {
+  width: 100%;
+  border-spacing: 0;
+}
+
+.pase thead {
+  text-transform: uppercase;
+  background: #f53756;
+  color: #fff;
+}
+
+.pase thead th {
+  padding: 1.25rem;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.pase tbody {
+  background: #fff;
+}
+
+.pase tbody td {
+  padding: 1.25rem;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.pase tbody tr:last-of-type td {
+  border-bottom: none;
+}
+
+.pase tfoot {
+  background: #752f97;
+  color: #fff;
+}
+
+.pase tfoot td {
+  padding: 1.25rem;
+  font-weight: 300;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.footer {
+  background: #f53756;
+  padding: 0.83333rem;
+  text-align: center;
+}
+
+.footer p {
+  color: #fff;
+  margin: 0;
 }
