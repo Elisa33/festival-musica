@@ -8,6 +8,3 @@ Technologies:
 * tailwind
 * gulp
 
-## Deploy
-
-[Here](https://lucid-chandrasekhar-723de3.netlify.app/)
